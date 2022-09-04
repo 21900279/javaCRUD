@@ -1,9 +1,18 @@
 package com.csee.java;
 
 public class Word {
+    private int id;
+    private int level;
     private String word;
     private String meaning;
-    private int difficulty;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getWord() {
         return word;
@@ -22,19 +31,20 @@ public class Word {
     }
 
     public int getDifficulty() {
-        return difficulty;
+        return level;
     }
 
-    public void setDifficulty(int difficulty) {
-        this.difficulty = difficulty;
+    public void setDifficulty(int level) {
+        this.level = level;
     }
 
     public Word() {
     }
 
-    public Word(String word, String meaning, int difficulty) {
+    public Word(int id, int level, String word, String meaning) {
+        this.id = id;
+        this.level = level;
         this.word = word;
         this.meaning = meaning;
-        this.difficulty = difficulty;
     }
 }

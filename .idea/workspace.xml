@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36f9fe92-1540-49a9-af3c-24226b4d73e0" name="Changes" comment="Create project and Word.java class">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="36f9fe92-1540-49a9-af3c-24226b4d73e0" name="Changes" comment="gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csee/java/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csee/java/Word.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662295877218</updated>
-      <workItem from="1662295878334" duration="807000" />
+      <workItem from="1662295878334" duration="1466000" />
     </task>
     <task id="LOCAL-00001" summary="Create project and Word.java class">
       <created>1662296303156</created>
@@ -59,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662296303156</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="gitignore">
+      <created>1662296707350</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662296707350</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +86,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create project and Word.java class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create project and Word.java class" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
   </component>
 </project>
