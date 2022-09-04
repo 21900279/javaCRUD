@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36f9fe92-1540-49a9-af3c-24226b4d73e0" name="Changes" comment="edit Word class">
+    <list default="true" id="36f9fe92-1540-49a9-af3c-24226b4d73e0" name="Changes" comment="selectMenu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/csee/java/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csee/java/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/csee/java/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csee/java/WordManager.java" afterDir="false" />
@@ -42,7 +42,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_directory_selection": "C:/Users/박세찬/Desktop/실전프로젝트/javaCRUD/src/main/java",
-    "last_opened_file_path": "C:/Users/박세찬/Desktop/실전프로젝트/javaCRUD"
+    "last_opened_file_path": "C:/Users/박세찬/Desktop/실전프로젝트/javaCRUD",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RunManager">
@@ -62,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662295877218</updated>
-      <workItem from="1662295878334" duration="2170000" />
+      <workItem from="1662295878334" duration="2909000" />
     </task>
     <task id="LOCAL-00001" summary="Create project and Word.java class">
       <created>1662296303156</created>
@@ -85,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662297373488</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="selectMenu">
+      <created>1662298094033</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662298094033</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +114,7 @@
     <MESSAGE value="Create project and Word.java class" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="edit Word class" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit Word class" />
+    <MESSAGE value="selectMenu" />
+    <option name="LAST_COMMIT_MESSAGE" value="selectMenu" />
   </component>
 </project>
