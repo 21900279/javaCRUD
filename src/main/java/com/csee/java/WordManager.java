@@ -1,10 +1,14 @@
 package com.csee.java;
 
+import java.util.Scanner;
+
 public class WordManager {
+    Scanner s = new Scanner(System.in);
     public void start() {
-        selectMenu();
+        int menu = selectMenu();
+        System.out.println(menu);
     }
-    public void selectMenu() {
+    public int selectMenu() {
 
         System.out.print("*** 영단어 마스터 ***\n" +
                 "********************\n" +
@@ -18,6 +22,7 @@ public class WordManager {
                 "0. 나가기\n" +
                 "********************\n" +
                 "=> 원하는 메뉴는? ");
+        return s.nextInt();
 
     }
 }
