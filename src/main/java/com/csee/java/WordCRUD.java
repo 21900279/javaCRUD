@@ -48,4 +48,26 @@ public class WordCRUD implements ICURD {
         }
         System.out.println("--------------------------------");
     }
+    public void listAll(ArrayList<Integer> idlist) {
+        System.out.println("--------------------------------");
+        for(int i=0; i<list.size(); i++) {
+            System.out.print((i+1) + " ");
+            System.out.println(list.get(i).toString());
+        }
+        System.out.println("--------------------------------");
+    }
+    public void updateItem() {
+        System.out.print("=> 수정할 단어 검색 : ");
+        String search = s.nextLine();
+        ArrayList<Integer> idlist = new ArrayList<>;
+        for(int i=0; i<list.size(); i++) {
+            if(list.get(i).getWord().contains(search)) {
+                idlist.add(i);
+            }
+        }
+        listAll(idlist);
+    }
+
+    public void deleteItem() {
+    }
 }
