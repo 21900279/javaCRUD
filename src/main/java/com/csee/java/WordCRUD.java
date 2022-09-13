@@ -59,7 +59,7 @@ public class WordCRUD implements ICURD {
     public void updateItem() {
         System.out.print("=> 수정할 단어 검색 : ");
         String search = s.nextLine();
-        ArrayList<Integer> idlist = new ArrayList<>;
+        ArrayList<Integer> idlist = new ArrayList<>();
         for(int i=0; i<list.size(); i++) {
             if(list.get(i).getWord().contains(search)) {
                 idlist.add(i);

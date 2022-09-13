@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9e2865f-8968-4692-b2c8-d10e1e2adffb" name="Changes" comment="update Main class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f9e2865f-8968-4692-b2c8-d10e1e2adffb" name="Changes" comment="create updateItem()">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/csee/java/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csee/java/WordCRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/csee/java/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csee/java/WordManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +77,7 @@
       <workItem from="1663052617011" duration="200000" />
       <workItem from="1663052817937" duration="53000" />
       <workItem from="1663052885643" duration="406000" />
-      <workItem from="1663053307568" duration="2231000" />
+      <workItem from="1663053307568" duration="2272000" />
     </task>
     <task id="LOCAL-00001" summary="Create helloProject2">
       <created>1662105250499</created>
@@ -109,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663053074022</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="create updateItem()">
+      <created>1663056626164</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663056626164</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +134,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create helloProject2" />
     <MESSAGE value="update Main class" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Main class" />
+    <MESSAGE value="create updateItem()" />
+    <option name="LAST_COMMIT_MESSAGE" value="create updateItem()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
