@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36f9fe92-1540-49a9-af3c-24226b4d73e0" name="Changes" comment="add word">
+    <list default="true" id="f9e2865f-8968-4692-b2c8-d10e1e2adffb" name="Changes" comment="update Main class">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/csee/java/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csee/java/Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/csee/java/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csee/java/WordCRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/csee/java/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csee/java/WordManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/csee/java/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/csee/java/Word.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/csee/java/WordCRUD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/csee/java/WordCRUD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/csee/java/WordManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/csee/java/WordManager.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +18,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -32,7 +28,14 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2EIvO5BM83bHPgXJ8qL6v1bwqeb" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2EhG8jUVN5FzwvAJ0HUXL8lpK05" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -40,20 +43,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_directory_selection": "C:/Users/박세찬/Desktop/실전프로젝트/javaCRUD/src/main/java",
-    "last_opened_file_path": "C:/Users/박세찬/Desktop/실전프로젝트/javaCRUD",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Project1&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.csee.java.Main" />
-      <module name="javaCRUD" />
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Project1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Project1" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -62,49 +70,39 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="36f9fe92-1540-49a9-af3c-24226b4d73e0" name="Changes" comment="" />
-      <created>1662295877218</created>
+      <changelist id="f9e2865f-8968-4692-b2c8-d10e1e2adffb" name="Changes" comment="" />
+      <created>1662105144518</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1662295877218</updated>
-      <workItem from="1662295878334" duration="3640000" />
+      <updated>1662105144518</updated>
+      <workItem from="1662105146275" duration="2653000" />
+      <workItem from="1663040246158" duration="430000" />
+      <workItem from="1663052617011" duration="200000" />
+      <workItem from="1663052817937" duration="53000" />
+      <workItem from="1663052885643" duration="177000" />
     </task>
-    <task id="LOCAL-00001" summary="Create project and Word.java class">
-      <created>1662296303156</created>
+    <task id="LOCAL-00001" summary="Create helloProject2">
+      <created>1662105250499</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1662296303156</updated>
+      <updated>1662105250499</updated>
     </task>
-    <task id="LOCAL-00002" summary="gitignore">
-      <created>1662296707350</created>
+    <task id="LOCAL-00002" summary="update Main class">
+      <created>1662106548549</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1662296707350</updated>
+      <updated>1662106548549</updated>
     </task>
-    <task id="LOCAL-00003" summary="edit Word class">
-      <created>1662297373488</created>
+    <task id="LOCAL-00003" summary="update Main class">
+      <created>1663040668603</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1662297373488</updated>
+      <updated>1663040668603</updated>
     </task>
-    <task id="LOCAL-00004" summary="selectMenu">
-      <created>1662298094033</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1662298094033</updated>
-    </task>
-    <task id="LOCAL-00005" summary="add word">
-      <created>1662298865296</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1662298865296</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,11 +120,23 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create project and Word.java class" />
-    <MESSAGE value="gitignore" />
-    <MESSAGE value="edit Word class" />
-    <MESSAGE value="selectMenu" />
-    <MESSAGE value="add word" />
-    <option name="LAST_COMMIT_MESSAGE" value="add word" />
+    <MESSAGE value="Create helloProject2" />
+    <MESSAGE value="update Main class" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Main class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/csee/java/ICURD.java</url>
+          <line>5</line>
+          <properties class="com.csee.java.ICURD" method="delete">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
