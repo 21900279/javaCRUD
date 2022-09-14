@@ -71,7 +71,11 @@ public class WordCRUD implements ICURD {
                 list2.add(i);
             }
         }
-        listAll(list2);
+        if(list2.isEmpty()) {
+            System.out.println("해당하는 단어가 없습니다.");
+            return;
+        }
+        else listAll(list2);
         System.out.print("=> 수정할 번호 선택 : ");
         int num = s.nextInt();
         System.out.print("=> 뜻 입력 : ");
@@ -81,5 +85,30 @@ public class WordCRUD implements ICURD {
     }
 
     public void deleteItem() {
+        System.out.print("=> 삭제할 단어 검색 : ");
+        s.nextLine();
+        String search = s.nextLine();
+        ArrayList<Integer> list2 = new ArrayList<>();
+        for(int i=0; i<list.size(); i++) {
+            if(list.get(i).getWord().contains(search)) {
+                list2.add(i);
+            }
+        }
+        if(list2.isEmpty()) {
+            System.out.println("해당하는 단어가 없습니다.");
+            return;
+        }
+        else listAll(list2);
+        System.out.print("=> 삭제할 번호 선택 : ");
+        int num = s.nextInt();
+        System.out.print("=> 정말로 삭제하실래요?(Y/n) ");
+        s.nextLine();
+        String c = s.next();
+        if(c.equalsIgnoreCase("Y")) {
+            list.remove((int)list2.get(num-1));
+            System.out.println("단어가 삭제되었습니다.");
+        }
+        else
+            System.out.println("단어가 삭제되지 않았습니다.");
     }
 }
