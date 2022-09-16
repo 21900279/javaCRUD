@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class WordCRUD implements ICURD {
     ArrayList<Word> list;
     Scanner s;
-    final String fname = "Dictionary.txt";
+    final String filename = "Dictionary.txt";
     WordCRUD(Scanner s) {
         list = new ArrayList<>();
         this.s = s;
@@ -116,7 +116,7 @@ public class WordCRUD implements ICURD {
 
     public void loadFile() {
         try {
-            BufferedReader br = new BufferedReader(new FileReader(fname));
+            BufferedReader br = new BufferedReader(new FileReader(filename));
             String line;
             int j = 0;
             while (true) {
@@ -138,7 +138,7 @@ public class WordCRUD implements ICURD {
 
     public void saveFile() {
         try {
-            PrintWriter pr = new PrintWriter(new FileWriter(fname));
+            PrintWriter pr = new PrintWriter(new FileWriter(filename));
             for(Word one : list) {
                 pr.write(one.toFileString() + "\n");
             }
@@ -147,5 +147,42 @@ public class WordCRUD implements ICURD {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public void searchLevel() {
+        int level;
+        while(true) {
+            System.out.print("=> 레벨 (1:초급 2:중급 3:고급) 선택 : ");
+            level = s.nextInt();
+            if(level ==1 || level==2 || level==3) break;
+            System.out.println("잘못된 입력입니다. 다시 입력해주세요.");
+        }
+        ArrayList<Integer> list2 = new ArrayList<>();
+        for(int i=0; i<list.size(); i++) {
+            if(level == list.get(i).getLevel()) {
+                list2.add(i);
+            }
+        }
+        if (list2.isEmpty()) {
+            System.out.println("해당하는 단어가 없습니다.");
+            return;
+        }
+        listAll(list2);
+    }
+    public void searchWord() {
+        System.out.print("=> 검색할 단어 입력 : ");
+        s.nextLine();
+        String search = s.nextLine();
+        ArrayList<Integer> list2 = new ArrayList<>();
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i).getWord().contains(search)) {
+                list2.add(i);
+            }
+        }
+        if (list2.isEmpty()) {
+            System.out.println("해당하는 단어가 없습니다.");
+            return;
+        }
+        listAll(list2);
     }
 }

@@ -2,3 +2,5 @@
 1|banana|바나나
 1|kiwi|키위
 1|strawberry|딸기
+2|computer|컴퓨터
+3|subordinate|부하의, 하급자의

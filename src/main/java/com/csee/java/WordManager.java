@@ -14,12 +14,21 @@ public class WordManager {
         wordCRUD.loadFile();
         while(true) {
             int menu = selectMenu();
-            if(menu==0) break;
+            if(menu==0) {
+                System.out.print("종료됨!");
+                break;
+            }
             else if(menu==4) {
                 wordCRUD.addWord();
             }
             else if(menu==1) {
                 wordCRUD.listAll();
+            }
+            else if(menu==2) {
+                wordCRUD.searchLevel();
+            }
+            else if(menu==3) {
+                wordCRUD.searchWord();
             }
             else if(menu==5) {
                 wordCRUD.updateItem();

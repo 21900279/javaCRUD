@@ -30,11 +30,11 @@ public class Word {
         this.meaning = meaning;
     }
 
-    public int getDifficulty() {
+    public int getLevel() {
         return level;
     }
 
-    public void setDifficulty(int level) {
+    public void setLevel(int level) {
         this.level = level;
     }
 
