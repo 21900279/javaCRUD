@@ -1,11 +1,13 @@
 package com.csee.java;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class WordCRUD implements ICURD {
     ArrayList<Word> list;
     Scanner s;
+    final String fname = "Dictionary.txt";
     WordCRUD(Scanner s) {
         list = new ArrayList<>();
         this.s = s;
@@ -14,7 +16,7 @@ public class WordCRUD implements ICURD {
     public Object add() {
         System.out.print("=> 난이도(1,2,3) & 새 단어 입력 : ");
         int level = s.nextInt();
-        String word = s.nextLine();
+        String word = s.nextLine().trim();
 
         System.out.print("뜻 입력 : ");
         String meaning = s.nextLine();
@@ -110,5 +112,40 @@ public class WordCRUD implements ICURD {
         }
         else
             System.out.println("단어가 삭제되지 않았습니다.");
+    }
+
+    public void loadFile() {
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(fname));
+            String line;
+            int j = 0;
+            while (true) {
+                line = br.readLine();
+                if (line == null) break;
+                String data[] = line.split("\\|");
+                int level = Integer.parseInt(data[0]);
+                list.add(new Word(0, level, data[1], data[2]));
+                j++;
+            }
+            br.close();
+            System.out.println("=> " + j + " 개 단어 로딩 완료!");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void saveFile() {
+        try {
+            PrintWriter pr = new PrintWriter(new FileWriter(fname));
+            for(Word one : list) {
+                pr.write(one.toFileString() + "\n");
+            }
+            pr.close();
+            System.out.println("모든 단어 파일 저장 완료 !!!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

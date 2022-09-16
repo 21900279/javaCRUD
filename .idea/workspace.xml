@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5dce174-a3ec-43cf-a4a1-dffe1ccdb43e" name="Changes" comment="complete updateItem()">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="e5dce174-a3ec-43cf-a4a1-dffe1ccdb43e" name="Changes" comment="complete deleteItem()">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csee/java/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csee/java/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csee/java/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csee/java/WordCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csee/java/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csee/java/WordManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,14 +27,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/박세찬/Desktop/실전프로젝트&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/박세찬/Desktop/실전프로젝트",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\박세찬\Desktop\실전프로젝트" />
@@ -66,7 +70,8 @@
       <option name="presentableId" value="Default" />
       <updated>1663149642508</updated>
       <workItem from="1663149643607" duration="111000" />
-      <workItem from="1663149755671" duration="2897000" />
+      <workItem from="1663149755671" duration="2942000" />
+      <workItem from="1663306100495" duration="2148000" />
     </task>
     <task id="LOCAL-00001" summary="complete updateItem()">
       <created>1663151454139</created>
@@ -82,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663152509273</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="complete deleteItem()">
+      <created>1663152672645</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663152672645</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="complete updateItem()" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete updateItem()" />
+    <MESSAGE value="complete deleteItem()" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete deleteItem()" />
   </component>
 </project>
