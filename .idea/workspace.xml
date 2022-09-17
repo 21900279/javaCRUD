@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5dce174-a3ec-43cf-a4a1-dffe1ccdb43e" name="Changes" comment="complete deleteItem()">
+    <list default="true" id="e5dce174-a3ec-43cf-a4a1-dffe1ccdb43e" name="Changes" comment="complete program">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/csee/java/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csee/java/Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/csee/java/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csee/java/WordCRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/csee/java/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csee/java/WordManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dictionary.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,8 @@
       <workItem from="1663149643607" duration="111000" />
       <workItem from="1663149755671" duration="2942000" />
       <workItem from="1663306100495" duration="2148000" />
-      <workItem from="1663311675045" duration="2026000" />
+      <workItem from="1663311675045" duration="3377000" />
+      <workItem from="1663381593192" duration="954000" />
     </task>
     <task id="LOCAL-00001" summary="complete updateItem()">
       <created>1663151454139</created>
@@ -95,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663152672645</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="complete program">
+      <created>1663313831473</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663313831473</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="complete updateItem()" />
     <MESSAGE value="complete deleteItem()" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete deleteItem()" />
+    <MESSAGE value="complete program" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete program" />
   </component>
 </project>
